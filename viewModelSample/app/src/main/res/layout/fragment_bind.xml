@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:foregroundGravity="center_vertical|center|center_horizontal"
+    app:layout_anchorGravity="center|center_horizontal|center_vertical"
+    tools:context=".BindFragment">
+
+    <TextView
+        android:id="@+id/text_view_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="@string/hello_from_bind_fragment" />
+
+</FrameLayout>
