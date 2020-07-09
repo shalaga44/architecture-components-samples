@@ -3,14 +3,17 @@ package com.shalaga44.livedatasample
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
-class MainActivityViewModel : viewModel() {
+class MainActivityViewModel(private val dataSource: DataSource) : ViewModel()  {
+
 
 }
 
-object MainActivityVMFActory : ViewModelProvider.Factory {
+object MainActivityVMFactory : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(MainActivityViewModel::class.java)) {
-            return MainActivityViewModel() as T
+
+            val dataSource = DefaultDataSource()
+            return MainActivityViewModel(dataSource) as T
         }
         throw IllegalArgumentException("Unknown view model class")
     }
