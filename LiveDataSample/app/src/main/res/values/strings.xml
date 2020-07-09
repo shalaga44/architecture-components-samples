@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LiveData Sample</string>
+    <string name="label0">Time generated from LiveData builder:</string>
 </resources>

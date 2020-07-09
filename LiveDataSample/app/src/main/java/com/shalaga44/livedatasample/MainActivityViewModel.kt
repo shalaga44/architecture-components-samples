@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
 class MainActivityViewModel(private val dataSource: DataSource) : ViewModel()  {
-
+    val currentTime = dataSource.getCurrentTime()
 
 }
 
