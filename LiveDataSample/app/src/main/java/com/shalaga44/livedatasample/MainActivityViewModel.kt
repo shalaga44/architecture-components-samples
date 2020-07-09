@@ -1,10 +1,9 @@
 package com.shalaga44.livedatasample
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.liveData
-import androidx.lifecycle.switchMap
+import androidx.lifecycle.*
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import java.util.*
 
 class MainActivityViewModel(private val dataSource: DataSource) : ViewModel() {
@@ -27,13 +26,20 @@ class MainActivityViewModel(private val dataSource: DataSource) : ViewModel() {
     companion object {
         const val LOADING_STRING = "Loading...."
     }
+    val cachedData = dataSource.cachedData
+     fun onRefresh(){
+        viewModelScope.launch {
+            dataSource.fetchNewData()
+
+        }
+    }
 }
 
 object MainActivityVMFactory : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(MainActivityViewModel::class.java)) {
 
-            val dataSource = DefaultDataSource()
+            val dataSource = DefaultDataSource(Dispatchers.IO)
             return MainActivityViewModel(dataSource) as T
         }
         throw IllegalArgumentException("Unknown view model class")

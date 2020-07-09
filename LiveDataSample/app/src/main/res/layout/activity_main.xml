@@ -32,14 +32,14 @@
             android:paddingEnd="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:textSize="19sp"
             android:text="@{Long.toString(viewModel.currentTime)}"
+            android:textSize="19sp"
             android:textStyle="bold" />
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/label1" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label1" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,8 +51,8 @@
             android:paddingEnd="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:textSize="19sp"
             android:text="@{viewModel.currentTimeTransformed}"
+            android:textSize="19sp"
             android:textStyle="bold" />
 
         <TextView
@@ -70,8 +70,34 @@
             android:paddingEnd="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:textSize="19sp"
             android:text="@{viewModel.currentWeather}"
+            android:textSize="19sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="@{viewModel.cachedData}"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.onRefresh()}"
+            android:text="Fetch New Data" />
     </LinearLayout>
 </layout>
