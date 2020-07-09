@@ -19,7 +19,14 @@ class MainActivityViewModel(private val dataSource: DataSource) : ViewModel() {
         val date = Date(long)
         return date.toString()
     }
+    val currentWeather = liveData<String> {
+        emit(LOADING_STRING)
+        emitSource(dataSource.fetchWeather())
+    }
 
+    companion object {
+        const val LOADING_STRING = "Loading...."
+    }
 }
 
 object MainActivityVMFactory : ViewModelProvider.Factory {

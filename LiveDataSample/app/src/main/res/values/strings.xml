@@ -2,4 +2,5 @@
     <string name="app_name">LiveData Sample</string>
     <string name="label0">Time generated from LiveData builder:</string>
     <string name="label1">Result from time transformation:</string>
+    <string name="label2">emit + emitSource pattern:</string>
 </resources>
