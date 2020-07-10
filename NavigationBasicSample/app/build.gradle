@@ -22,6 +22,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    buildFeatures{
+        dataBinding = true
+    }
 }
 
 dependencies {
@@ -33,6 +36,10 @@ dependencies {
     implementation deps.material
     implementation deps.navigation.fragment_ktx
     implementation deps.navigation.ui_ktx
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.activity.activity_ktx
     testImplementation deps.junit
     androidTestImplementation deps.atsl.ext_junit
     androidTestImplementation deps.espresso.core
