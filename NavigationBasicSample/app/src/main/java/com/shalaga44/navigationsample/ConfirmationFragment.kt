@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import com.shalaga44.navigationsample.databinding.FragmentConfirmationBinding
 
 
-class confirmationFragment : Fragment() {
+class ConfirmationFragment : Fragment(R.layout.fragment_confirmation) {
     private lateinit var binding: FragmentConfirmationBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

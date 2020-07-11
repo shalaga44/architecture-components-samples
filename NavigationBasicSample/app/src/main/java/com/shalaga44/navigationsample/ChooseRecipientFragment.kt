@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.shalaga44.navigationsample.databinding.FragmentChooseRecipientBinding
 
 
-class chooseRecipientFragment : Fragment() {
+class ChooseRecipientFragment : Fragment(R.layout.fragment_choose_recipient) {
         private lateinit var binding: FragmentChooseRecipientBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

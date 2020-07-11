@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.shalaga44.navigationsample.mainFragment"
+        android:name="com.shalaga44.navigationsample.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main">
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/viewTransactionsFragment"
-        android:name="com.shalaga44.navigationsample.viewTransactionsFragment"
+        android:name="com.shalaga44.navigationsample.ViewTransactionsFragment"
         android:label="fragment_view_transactions"
         tools:layout="@layout/fragment_view_transactions" />
     <fragment
@@ -35,7 +35,7 @@
         tools:layout="@layout/fragment_view_balance" />
     <fragment
         android:id="@+id/chooseRecipientFragment"
-        android:name="com.shalaga44.navigationsample.chooseRecipientFragment"
+        android:name="com.shalaga44.navigationsample.ChooseRecipientFragment"
         android:label="fragment_choose_recipient"
         tools:layout="@layout/fragment_choose_recipient" >
         <action
@@ -44,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/spacifyAmountFragment"
-        android:name="com.shalaga44.navigationsample.spacifyAmountFragment"
+        android:name="com.shalaga44.navigationsample.SpacifyAmountFragment"
         android:label="fragment_spacify_amount"
         tools:layout="@layout/fragment_spacify_amount" >
         <action
@@ -53,7 +53,7 @@
     </fragment>
     <fragment
         android:id="@+id/confirmationFragment"
-        android:name="com.shalaga44.navigationsample.confirmationFragment"
+        android:name="com.shalaga44.navigationsample.ConfirmationFragment"
         android:label="fragment_confirmation"
         tools:layout="@layout/fragment_confirmation" />
 </navigation>

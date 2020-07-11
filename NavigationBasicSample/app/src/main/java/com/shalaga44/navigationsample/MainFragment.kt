@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import com.shalaga44.navigationsample.databinding.FragmentMainBinding
 
 
-class mainFragment : Fragment() {
+class MainFragment : Fragment(R.layout.fragment_main) {
     private lateinit var binding: FragmentMainBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

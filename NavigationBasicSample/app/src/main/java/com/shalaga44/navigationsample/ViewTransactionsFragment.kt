@@ -7,6 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class viewTransactionsFragment : Fragment() {
+class ViewTransactionsFragment : Fragment(R.layout.fragment_view_transactions) {
 
 }

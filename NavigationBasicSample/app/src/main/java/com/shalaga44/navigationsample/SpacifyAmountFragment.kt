@@ -5,7 +5,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.shalaga44.navigationsample.databinding.FragmentSpacifyAmountBinding
 
-class spacifyAmountFragment : Fragment() {
+class SpacifyAmountFragment : Fragment(R.layout.fragment_spacify_amount) {
     private lateinit var binding: FragmentSpacifyAmountBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
