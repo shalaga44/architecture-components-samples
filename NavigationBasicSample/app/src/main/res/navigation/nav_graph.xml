@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
 
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.shalaga44.navigationsample.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_viewTransactionsFragment"
+            app:destination="@id/viewTransactionsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_viewBalanceFragment"
+            app:destination="@id/viewBalanceFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chooseRecipientFragment"
+            app:destination="@id/chooseRecipientFragment" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="www.test.com/{user}" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewTransactionsFragment"
+        android:name="com.shalaga44.navigationsample.viewTransactionsFragment"
+        android:label="fragment_view_transactions"
+        tools:layout="@layout/fragment_view_transactions" />
+    <fragment
+        android:id="@+id/viewBalanceFragment"
+        android:name="com.shalaga44.navigationsample.viewBalanceFragment"
+        android:label="fragment_view_balance"
+        tools:layout="@layout/fragment_view_balance" />
+    <fragment
+        android:id="@+id/chooseRecipientFragment"
+        android:name="com.shalaga44.navigationsample.chooseRecipientFragment"
+        android:label="fragment_choose_recipient"
+        tools:layout="@layout/fragment_choose_recipient" >
+        <action
+            android:id="@+id/action_chooseRecipientFragment_to_spacifyAmountFragment"
+            app:destination="@id/spacifyAmountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spacifyAmountFragment"
+        android:name="com.shalaga44.navigationsample.spacifyAmountFragment"
+        android:label="fragment_spacify_amount"
+        tools:layout="@layout/fragment_spacify_amount" >
+        <action
+            android:id="@+id/action_spacifyAmountFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.shalaga44.navigationsample.confirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
 </navigation>
