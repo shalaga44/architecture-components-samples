@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.shalaga44.navigationsample.MainFragment"
-        android:label="fragment_main"
+        android:label="Home"
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_viewTransactionsFragment"
@@ -35,17 +35,17 @@
     <fragment
         android:id="@+id/viewTransactionsFragment"
         android:name="com.shalaga44.navigationsample.ViewTransactionsFragment"
-        android:label="fragment_view_transactions"
+        android:label="Transactions"
         tools:layout="@layout/fragment_view_transactions" />
     <fragment
         android:id="@+id/viewBalanceFragment"
         android:name="com.shalaga44.navigationsample.viewBalanceFragment"
-        android:label="fragment_view_balance"
+        android:label="Balance"
         tools:layout="@layout/fragment_view_balance" />
     <fragment
         android:id="@+id/chooseRecipientFragment"
         android:name="com.shalaga44.navigationsample.ChooseRecipientFragment"
-        android:label="fragment_choose_recipient"
+        android:label="Choose Recipient"
         tools:layout="@layout/fragment_choose_recipient">
         <action
             android:id="@+id/action_chooseRecipientFragment_to_spacifyAmountFragment"
@@ -66,7 +66,7 @@
     <fragment
         android:id="@+id/spacifyAmountFragment"
         android:name="com.shalaga44.navigationsample.SpacifyAmountFragment"
-        android:label="fragment_spacify_amount"
+        android:label="Specify Amount"
         tools:layout="@layout/fragment_spacify_amount" >
         <action
             android:id="@+id/action_spacifyAmountFragment_to_confirmationFragment"
@@ -83,7 +83,7 @@
     <fragment
         android:id="@+id/confirmationFragment"
         android:name="com.shalaga44.navigationsample.ConfirmationFragment"
-        android:label="fragment_confirmation"
+        android:label="Confirmation"
         tools:layout="@layout/fragment_confirmation"
         app:enterAnim="@anim/slide_in_right"
         app:exitAnim="@anim/slide_out_left"
