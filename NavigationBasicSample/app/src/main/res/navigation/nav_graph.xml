@@ -31,9 +31,6 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
-        <deepLink
-            android:id="@+id/deepLink"
-            app:uri="www.test.com/{user}" />
     </fragment>
     <fragment
         android:id="@+id/viewTransactionsFragment"
@@ -70,6 +67,10 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="Shalaga44" />
     </fragment>
     <fragment
         android:id="@+id/confirmationFragment"
@@ -79,5 +80,14 @@
         app:enterAnim="@anim/slide_in_right"
         app:exitAnim="@anim/slide_out_left"
         app:popEnterAnim="@anim/slide_in_left"
-        app:popExitAnim="@anim/slide_out_right"/>
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="amount"
+            app:argType="integer"
+            android:defaultValue="4444" />
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="shalaga44" />
+    </fragment>
 </navigation>

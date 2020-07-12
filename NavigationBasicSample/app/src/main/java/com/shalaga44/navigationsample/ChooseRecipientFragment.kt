@@ -19,8 +19,11 @@ class ChooseRecipientFragment : Fragment(R.layout.fragment_choose_recipient) {
             activity!!.onBackPressed()
         }
         binding.sendButton.setOnClickListener {
+            val username = binding.textInputLayout.editText?.text.toString()
+            val action = ChooseRecipientFragmentDirections
+            .actionChooseRecipientFragmentToSpacifyAmountFragment(username)
             Navigation.findNavController(view)
-                .navigate(R.id.action_chooseRecipientFragment_to_spacifyAmountFragment)
+                .navigate(action)
         }
     }
 
