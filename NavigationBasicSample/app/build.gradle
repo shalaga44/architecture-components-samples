@@ -24,6 +24,7 @@ android {
     }
     buildFeatures{
         dataBinding = true
+        viewBinding = true
     }
 }
 
@@ -40,6 +41,7 @@ dependencies {
     implementation deps.lifecycle.viewmodel_ktx
     implementation deps.lifecycle.livedata_ktx
     implementation deps.activity.activity_ktx
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation deps.junit
     androidTestImplementation deps.atsl.ext_junit
     androidTestImplementation deps.espresso.core
