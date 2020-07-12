@@ -14,13 +14,16 @@ class ChooseRecipientFragment : Fragment(R.layout.fragment_choose_recipient) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentChooseRecipientBinding.bind(view)
-
-        binding.textInputLayout.editText?.setText(args.username)
+        if (args.username != "Shalaga44") {
+            binding.textInputLayout.editText?.setText(args.username) }
         binding.cancelButton.setOnClickListener {
             activity!!.onBackPressed()
         }
         binding.sendButton.setOnClickListener {
-            val username = binding.textInputLayout.editText?.text.toString()
+            var username = binding.textInputLayout.editText?.text.toString()
+            if(username.isNullOrBlank()){
+                username = args.username
+            }
             val action = ChooseRecipientFragmentDirections
                 .actionChooseRecipientFragmentToSpacifyAmountFragment(username)
             Navigation.findNavController(view)

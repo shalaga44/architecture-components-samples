@@ -13,6 +13,6 @@ class ConfirmationFragment : Fragment(R.layout.fragment_confirmation) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentConfirmationBinding.bind(view)
-        binding.youHaveSentAmoutToUsername.text = "You Have Sent ${args.amount} To ${args.username}"
+        binding.youHaveSentAmoutToUsername.text = "You Have Sent $${args.amount} To ${args.username}"
     }
 }

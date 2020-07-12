@@ -18,7 +18,10 @@ class SpacifyAmountFragment : Fragment(R.layout.fragment_spacify_amount) {
             activity!!.onBackPressed()
         }
         binding.sendButton.setOnClickListener {
-            val amount = binding.textInputLayout.editText?.text.toString().toInt()
+            val amountText = binding.textInputLayout.editText?.text
+            var amount = 44
+            if(!amountText.isNullOrBlank()){
+                amount = amountText.toString().toInt() }
             val action = SpacifyAmountFragmentDirections
                 .actionSpacifyAmountFragmentToConfirmationFragment(amount,args.username)
             Navigation.findNavController(view)
