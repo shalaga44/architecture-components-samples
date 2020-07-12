@@ -46,14 +46,22 @@
         android:id="@+id/chooseRecipientFragment"
         android:name="com.shalaga44.navigationsample.ChooseRecipientFragment"
         android:label="fragment_choose_recipient"
-        tools:layout="@layout/fragment_choose_recipient" >
+        tools:layout="@layout/fragment_choose_recipient">
         <action
             android:id="@+id/action_chooseRecipientFragment_to_spacifyAmountFragment"
             app:destination="@id/spacifyAmountFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"/>
+            app:popExitAnim="@anim/slide_out_right" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="test.com/{username}">
+        </deepLink>
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="Shalaga44" />
     </fragment>
     <fragment
         android:id="@+id/spacifyAmountFragment"
