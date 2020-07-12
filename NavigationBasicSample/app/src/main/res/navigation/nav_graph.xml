@@ -91,8 +91,8 @@
         app:popExitAnim="@anim/slide_out_right">
         <argument
             android:name="amount"
-            app:argType="integer"
-            android:defaultValue="4444" />
+            app:argType="string"
+            android:defaultValue="44" />
         <argument
             android:name="username"
             app:argType="string"
