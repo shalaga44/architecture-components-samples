@@ -3,13 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion build_versions.compile_sdk
+    buildToolsVersion build_versions.build_tools
 
     defaultConfig {
         applicationId "com.shalaga44.workmanagersample"
-        minSdkVersion 16
-        targetSdkVersion 29
+        minSdkVersion 18
+        targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
 
@@ -22,16 +22,32 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    buildFeatures{
+        dataBinding = true
+        viewBinding = true
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation deps.kotlin.stdlib
+    implementation deps.core_ktx
+    implementation deps.app_compat
+    implementation deps.constraint_layout
+    implementation deps.material
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.activity.activity_ktx
+    implementation deps.work.runtime_ktx
 
+    testImplementation deps.junit
+    androidTestImplementation deps.atsl.ext_junit
+    androidTestImplementation deps.atsl.runner
+    androidTestImplementation deps.atsl.rules
+    androidTestImplementation deps.espresso.core
+    androidTestImplementation deps.work.testing
 }
