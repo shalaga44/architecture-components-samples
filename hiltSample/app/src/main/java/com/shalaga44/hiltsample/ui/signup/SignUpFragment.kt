@@ -8,6 +8,6 @@ import android.view.ViewGroup
 import com.shalaga44.hiltsample.R
 
 
-class SignUpFragment : Fragment() {
+class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
 
 }
