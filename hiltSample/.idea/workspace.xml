@@ -9,30 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc44c351-12b6-4cd5-ac6a-ff533973a87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/MainViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/MyApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/di/RepositoryModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/di/RetrofitModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/di/RoomModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/model/Blog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/repository/MainRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/retrofit/BlogNetworkEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/retrofit/BlogRetrofilt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/retrofit/NetworkMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/room/BlogCacheEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/room/BlogDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/room/BlogsDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/room/CacheMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/util/DataState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/util/EntityMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/shalaga44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/shalaga44.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shalaga44/hiltsample/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bc44c351-12b6-4cd5-ac6a-ff533973a87f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,14 +202,18 @@
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
     <state width="1793" height="20" key="GridCell.Tab.0.right/79.27.1841.1053@79.27.1841.1053" timestamp="1594862912200" />
+    <state x="843" y="462" width="302" height="189" key="VCS.ChangelistChooser" timestamp="1594897258742">
+      <screen x="79" y="27" width="1841" height="1053" />
+    </state>
+    <state x="843" y="462" width="302" height="189" key="VCS.ChangelistChooser/79.27.1841.1053@79.27.1841.1053" timestamp="1594897258742" />
     <state x="771" y="333" width="447" height="447" key="chooseDestDirectoryDialog" timestamp="1594836285757">
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
     <state x="771" y="333" width="447" height="447" key="chooseDestDirectoryDialog/79.27.1841.1053@79.27.1841.1053" timestamp="1594836285757" />
-    <state x="654" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1594896566495">
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1594897166256">
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
-    <state x="654" y="381" key="com.intellij.ide.util.TipDialog/79.27.1841.1053@79.27.1841.1053" timestamp="1594896566495" />
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog/79.27.1841.1053@79.27.1841.1053" timestamp="1594897166256" />
     <state x="435" y="137" width="1118" height="839" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594834282522">
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
