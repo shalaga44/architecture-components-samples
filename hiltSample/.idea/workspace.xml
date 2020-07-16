@@ -68,7 +68,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -155,6 +154,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/shalaga44/Tasks/architecture-components-samples/hiltSample/app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -163,6 +187,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="WindowStateProjectService">
@@ -222,6 +251,10 @@
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
     <state x="770" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/79.27.1841.1053@79.27.1841.1053" timestamp="1594835589490" />
+    <state x="713" y="185" width="562" height="743" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594897287992">
+      <screen x="79" y="27" width="1841" height="1053" />
+    </state>
+    <state x="713" y="185" width="562" height="743" key="git4idea.branch.GitSmartOperationDialog/79.27.1841.1053@79.27.1841.1053" timestamp="1594897287992" />
     <state x="663" y="252" key="run.anything.popup" timestamp="1594835564584">
       <screen x="79" y="27" width="1841" height="1053" />
     </state>
