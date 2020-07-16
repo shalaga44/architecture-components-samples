@@ -1,0 +1,4 @@
+#Thu Jul 16 03:28:24 CAT 2020
+base.0=/home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

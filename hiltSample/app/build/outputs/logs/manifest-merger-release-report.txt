@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/91a59b82ebf73ac86c403561ef2a4e63/databinding-adapters-4.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2de7b4d2dfa78dcb530dc0402a7c6307/databinding-runtime-4.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/289c744a05b77b845165367d677320ec/navigation-ui-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/201d3ec0a24746f5a0aa99365d128fb3/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/406d5b4e0edc528065a7159ee11eb4b4/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9ec7a95c54c036a0cba47327b1729945/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2d850c448cfc066512ac48249df0b12d/appcompat-1.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/65b6de663357a87aae41c65b97e9aa0a/jetified-navigation-dynamic-features-fragment-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/edde2eeb855bfbc5ca23caff9a705190/navigation-fragment-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/04f91a22de12b5cc97e5cd879b63bfeb/jetified-fragment-ktx-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ed76ac6639b325f6d4b95e31e18dd546/jetified-navigation-dynamic-features-runtime-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1e4cffcc6745de6884dd097313a4e97/navigation-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6a6875f590ed93b5bf36b0ef5fe15699/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0c5b3226964ce06480e5daa3152c3b39/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.transition:transition:1.3.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/98048551202501d8fda8499074c7c5ce/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86f402fbed2655d1c74aae5886dee93d/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/abcf6e7558a239b3cc894684236e85b7/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ba15ecf29a1ff88da12bd0b2d8da909e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86c77afa42b8d289da2e93f3218c1a6f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7cbe7a920cb7e30c3901c652aca9c2a8/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0dcc288f42b8fb3e4bf70f579e3ebaeb/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0d30df8bb24168d97c0ab9fd2ca005ae/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ae7d8be63cb306dbf355b4d79a8347e2/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2253131137b340e1fe164745b0948f7f/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/657f680b4b7bc33bd6e576450d506fcc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c3c160ae38db09daa3dcd695ed58b5c3/jetified-lifecycle-reactivestreams-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/15fc517f8ce1138fe47a8b4d5d25c504/jetified-room-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.databinding:viewbinding:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fd8f5000530938020ff61e4b93c12236/jetified-viewbinding-4.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3ce2405fe5edd4da3b4459a94e92caa5/jetified-appcompat-resources-1.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7f6e348c1419b2a3ad539f09b773df52/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/96e9f13d6052871277561206b5ad961a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/eec48a517a48b9e5a7b52703e4a5e960/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1d59aad3c6ae8dfa39a8c957baf2939d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5527995351e509ba67fb7c217b64aab2/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cf785ccb08a5d12b7ecaab7a2299eb8f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/365744e3603e0cd0df64a4691fc19ec7/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/a643992ac0ecf833930b98d160aa64be/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9035ab5dcaabdbe512494c384701238/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f48dd86a9c9f752bfb03e6c09a136815/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6d35c840d5939dbcb4cef4f5f16ba507/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bef9e505400f6d5a0aec4b2b496a6c98/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/37df38d759beaadcac5c7f4b4180eacf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1905debc0b81b2ac548df87ab165eea3/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f586c6afcee2ed8861acd6a41a04f61f/navigation-common-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/87b9336c72465e56df3cd0823cd36101/navigation-common-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fbffb6a5c18a36ff3cf66c9350611dc7/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/42401423533d21e24ff6d8254b613cf1/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7afd9277eecad0a7a30bc2f479061767/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/531344c177a6f12eeb0b005c8147c5de/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6fb71b09379a8db8208018783dd6c764/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bf5728473899ed80fc6b002cb93d69bf/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/8f7b0ad2736c0e650654f71e8eabf397/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6069b3a88a52952763f173568e47a4b3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/d9ebfab70b4f5b9941df60a463fc5ebb/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6736a77d90c53e8b1da28f1636822980/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/76629c7b3285bc1a824684e606d331a9/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f5d61424c81a80090f3740a02eab3d8e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1a79d8363fa476a0e4f32d4188506c5/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cdfadd1b7ac92a6edfff35cdcdfd4191/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2fb91778d614ee9a1398cc664437ba4e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5cf76b78073fea14f002d6f62d5c5070/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/aa795b284291b0ba1b088f7700787469/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/4430144a0aa1d17c78d459bf6597d64f/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.28] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/a771c6e238b152ad6d22f274017d9f85/jetified-dagger-lint-aar-2.28/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.google.android.material:material:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/406d5b4e0edc528065a7159ee11eb4b4/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/406d5b4e0edc528065a7159ee11eb4b4/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9ec7a95c54c036a0cba47327b1729945/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9ec7a95c54c036a0cba47327b1729945/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/531344c177a6f12eeb0b005c8147c5de/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/531344c177a6f12eeb0b005c8147c5de/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:6:3-10:17
+MERGED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:6:3-10:17
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.shalaga44.hiltsample.LoginActivity
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:12:9-60
+	android:name
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:12:19-48
+activity#com.shalaga44.hiltsample.MainActivity
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/91a59b82ebf73ac86c403561ef2a4e63/databinding-adapters-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/91a59b82ebf73ac86c403561ef2a4e63/databinding-adapters-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2de7b4d2dfa78dcb530dc0402a7c6307/databinding-runtime-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2de7b4d2dfa78dcb530dc0402a7c6307/databinding-runtime-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/289c744a05b77b845165367d677320ec/navigation-ui-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/289c744a05b77b845165367d677320ec/navigation-ui-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/201d3ec0a24746f5a0aa99365d128fb3/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/201d3ec0a24746f5a0aa99365d128fb3/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/406d5b4e0edc528065a7159ee11eb4b4/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/406d5b4e0edc528065a7159ee11eb4b4/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9ec7a95c54c036a0cba47327b1729945/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9ec7a95c54c036a0cba47327b1729945/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2d850c448cfc066512ac48249df0b12d/appcompat-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2d850c448cfc066512ac48249df0b12d/appcompat-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/65b6de663357a87aae41c65b97e9aa0a/jetified-navigation-dynamic-features-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/65b6de663357a87aae41c65b97e9aa0a/jetified-navigation-dynamic-features-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/edde2eeb855bfbc5ca23caff9a705190/navigation-fragment-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/edde2eeb855bfbc5ca23caff9a705190/navigation-fragment-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/04f91a22de12b5cc97e5cd879b63bfeb/jetified-fragment-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/04f91a22de12b5cc97e5cd879b63bfeb/jetified-fragment-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ed76ac6639b325f6d4b95e31e18dd546/jetified-navigation-dynamic-features-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ed76ac6639b325f6d4b95e31e18dd546/jetified-navigation-dynamic-features-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1e4cffcc6745de6884dd097313a4e97/navigation-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1e4cffcc6745de6884dd097313a4e97/navigation-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6a6875f590ed93b5bf36b0ef5fe15699/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6a6875f590ed93b5bf36b0ef5fe15699/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0c5b3226964ce06480e5daa3152c3b39/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0c5b3226964ce06480e5daa3152c3b39/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.transition:transition:1.3.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/98048551202501d8fda8499074c7c5ce/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/98048551202501d8fda8499074c7c5ce/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86f402fbed2655d1c74aae5886dee93d/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86f402fbed2655d1c74aae5886dee93d/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/abcf6e7558a239b3cc894684236e85b7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/abcf6e7558a239b3cc894684236e85b7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ba15ecf29a1ff88da12bd0b2d8da909e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ba15ecf29a1ff88da12bd0b2d8da909e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86c77afa42b8d289da2e93f3218c1a6f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/86c77afa42b8d289da2e93f3218c1a6f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7cbe7a920cb7e30c3901c652aca9c2a8/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7cbe7a920cb7e30c3901c652aca9c2a8/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0dcc288f42b8fb3e4bf70f579e3ebaeb/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0dcc288f42b8fb3e4bf70f579e3ebaeb/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0d30df8bb24168d97c0ab9fd2ca005ae/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/0d30df8bb24168d97c0ab9fd2ca005ae/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ae7d8be63cb306dbf355b4d79a8347e2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/ae7d8be63cb306dbf355b4d79a8347e2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2253131137b340e1fe164745b0948f7f/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2253131137b340e1fe164745b0948f7f/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/657f680b4b7bc33bd6e576450d506fcc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/657f680b4b7bc33bd6e576450d506fcc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c3c160ae38db09daa3dcd695ed58b5c3/jetified-lifecycle-reactivestreams-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c3c160ae38db09daa3dcd695ed58b5c3/jetified-lifecycle-reactivestreams-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/15fc517f8ce1138fe47a8b4d5d25c504/jetified-room-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/15fc517f8ce1138fe47a8b4d5d25c504/jetified-room-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fd8f5000530938020ff61e4b93c12236/jetified-viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fd8f5000530938020ff61e4b93c12236/jetified-viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3ce2405fe5edd4da3b4459a94e92caa5/jetified-appcompat-resources-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha02] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3ce2405fe5edd4da3b4459a94e92caa5/jetified-appcompat-resources-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7f6e348c1419b2a3ad539f09b773df52/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7f6e348c1419b2a3ad539f09b773df52/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/96e9f13d6052871277561206b5ad961a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/96e9f13d6052871277561206b5ad961a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/eec48a517a48b9e5a7b52703e4a5e960/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/eec48a517a48b9e5a7b52703e4a5e960/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1d59aad3c6ae8dfa39a8c957baf2939d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1d59aad3c6ae8dfa39a8c957baf2939d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5527995351e509ba67fb7c217b64aab2/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5527995351e509ba67fb7c217b64aab2/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cf785ccb08a5d12b7ecaab7a2299eb8f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cf785ccb08a5d12b7ecaab7a2299eb8f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/365744e3603e0cd0df64a4691fc19ec7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/365744e3603e0cd0df64a4691fc19ec7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/a643992ac0ecf833930b98d160aa64be/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/a643992ac0ecf833930b98d160aa64be/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9035ab5dcaabdbe512494c384701238/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9035ab5dcaabdbe512494c384701238/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f48dd86a9c9f752bfb03e6c09a136815/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f48dd86a9c9f752bfb03e6c09a136815/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6d35c840d5939dbcb4cef4f5f16ba507/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6d35c840d5939dbcb4cef4f5f16ba507/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bef9e505400f6d5a0aec4b2b496a6c98/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bef9e505400f6d5a0aec4b2b496a6c98/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/37df38d759beaadcac5c7f4b4180eacf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/37df38d759beaadcac5c7f4b4180eacf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1905debc0b81b2ac548df87ab165eea3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/1905debc0b81b2ac548df87ab165eea3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f586c6afcee2ed8861acd6a41a04f61f/navigation-common-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f586c6afcee2ed8861acd6a41a04f61f/navigation-common-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/87b9336c72465e56df3cd0823cd36101/navigation-common-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/87b9336c72465e56df3cd0823cd36101/navigation-common-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/3fc9ec647ebf009554a2dc2cc5ddc102/core-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fbffb6a5c18a36ff3cf66c9350611dc7/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/fbffb6a5c18a36ff3cf66c9350611dc7/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/42401423533d21e24ff6d8254b613cf1/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/42401423533d21e24ff6d8254b613cf1/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7afd9277eecad0a7a30bc2f479061767/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/7afd9277eecad0a7a30bc2f479061767/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/531344c177a6f12eeb0b005c8147c5de/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/531344c177a6f12eeb0b005c8147c5de/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6fb71b09379a8db8208018783dd6c764/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6fb71b09379a8db8208018783dd6c764/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bf5728473899ed80fc6b002cb93d69bf/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/bf5728473899ed80fc6b002cb93d69bf/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/8f7b0ad2736c0e650654f71e8eabf397/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/8f7b0ad2736c0e650654f71e8eabf397/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6069b3a88a52952763f173568e47a4b3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6069b3a88a52952763f173568e47a4b3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/d9ebfab70b4f5b9941df60a463fc5ebb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/d9ebfab70b4f5b9941df60a463fc5ebb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6736a77d90c53e8b1da28f1636822980/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/6736a77d90c53e8b1da28f1636822980/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/76629c7b3285bc1a824684e606d331a9/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/76629c7b3285bc1a824684e606d331a9/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f5d61424c81a80090f3740a02eab3d8e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/f5d61424c81a80090f3740a02eab3d8e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1a79d8363fa476a0e4f32d4188506c5/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b1a79d8363fa476a0e4f32d4188506c5/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cdfadd1b7ac92a6edfff35cdcdfd4191/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/cdfadd1b7ac92a6edfff35cdcdfd4191/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2fb91778d614ee9a1398cc664437ba4e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/2fb91778d614ee9a1398cc664437ba4e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5cf76b78073fea14f002d6f62d5c5070/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/5cf76b78073fea14f002d6f62d5c5070/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/aa795b284291b0ba1b088f7700787469/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/aa795b284291b0ba1b088f7700787469/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/4430144a0aa1d17c78d459bf6597d64f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/4430144a0aa1d17c78d459bf6597d64f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:4:3-70
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/c9bde639c963c32c719e6d68733fdc9a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha01] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/b3f94a82b02cb00ef1f8064d78e9cd29/room-runtime-2.3.0-alpha01/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/shalaga44/Tasks/architecture-components-samples/hiltSample/app/src/main/AndroidManifest.xml:2:1-22:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:8:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:5-278
+	android:process
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:175-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:227-276
+	android:name
+		ADDED from [com.google.android.play:core:1.6.4] /home/shalaga44/.gradle/caches/transforms-2/files-2.1/9e845a25af19fc0899b6475f72558cdf/jetified-core-1.6.4/AndroidManifest.xml:9:15-95
