@@ -20,6 +20,10 @@ constructor():EntityMapper<BlogNetworkEntity, Blog>
 
     override fun mapToEntity(model: Blog): BlogNetworkEntity {
         return BlogNetworkEntity(
+<<<<<<< HEAD
+=======
+
+>>>>>>> Dagger-Hilt
             id = model.id,
             title = model.title,
             body = model.body,
